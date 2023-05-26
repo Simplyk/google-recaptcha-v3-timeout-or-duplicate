@@ -7,8 +7,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - run `npm install`
 
 - Replaces the variables
-  `GOOGLE_RECAPTCHA_PUBLIC_KEY` in src/App.js  
-  `GOOGLE_RECAPTCHA_SECRET_KEY` in server/index.js by your keys
+  - `GOOGLE_RECAPTCHA_PUBLIC_KEY` in src/App.js
+  - `GOOGLE_RECAPTCHA_SECRET_KEY` in server/index.js by your keys
 - Add the recaptcha public key in the `<script />` of index.html after "render="
 
 ```
@@ -24,8 +24,8 @@ index.html
 
 ### Launch application
 
-1st console : `npm run start-client` // react application should start on http://localhost:3000/
-2nd console : `npm run start-server` // node application should start on http://localhost:3001/
+- 1st console : `npm run start-client` // react application should start on http://localhost:3000/
+- 2nd console : `npm run start-server` // node application should start on http://localhost:3001/
 
 ### To reproduce the bug
 
