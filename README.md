@@ -44,7 +44,7 @@ index.html
 
 ## Details
 
-The bug is that the recaptcha token sent on the second submission is "timeout-or-duplicate", but is neither a duplicate, neither a too old token.
+The bug is that the recaptcha token sent on the second submission is "timeout-or-duplicate", but is neither a duplicate, neither an expired token.
 It looks like the bug happen when the code contains a long `<div />` of text containing the string "id ", followed by a div containing the string "$ 20.00", or any price with symbol $.
 Removing one of the div will completely fix the problem
 
