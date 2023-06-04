@@ -6,12 +6,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - run `npm install`
 
-- Replaces the variables
+<!-- - Replaces the variables
   - `GOOGLE_RECAPTCHA_PUBLIC_KEY` in src/App.js
   - `GOOGLE_RECAPTCHA_SECRET_KEY` in server/index.js by your keys
-- Add the recaptcha public key in the `<script />` of index.html after "render="
+- Add the recaptcha public key in the `<script />` of index.html after "render=" -->
 
-```
+<!-- ```
 src/App.js
 const GOOGLE_RECAPTCHA_PUBLIC_KEY = "your recaptcha public key"
 
@@ -20,7 +20,7 @@ const GOOGLE_RECAPTCHA_SECRET_KEY = "your recaptcha secret key"
 
 index.html
 <script src="https://www.google.com/recaptcha/api.js?render=yourRecaptchaPublicKey"></script>
-```
+``` -->
 
 ### Launch application
 

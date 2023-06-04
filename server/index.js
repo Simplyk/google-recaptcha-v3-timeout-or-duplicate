@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const GOOGLE_RECAPTCHA_SECRET_KEY = "";
+// const GOOGLE_RECAPTCHA_SECRET_KEY = "";
 const SITE_KEY = "6LdEdzsmAAAAABujRzZH_0-LYBIWyMaMI22_sfYa";
 const PROJECT_ID = "zeffy-platform";
 const API_KEY = "AIzaSyDLKIz_7pDfqqhOjg4768ZH3SU0jcykLiI";
