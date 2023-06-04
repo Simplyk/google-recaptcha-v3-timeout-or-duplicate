@@ -1,6 +1,6 @@
 import "./App.css";
 
-const GOOGLE_RECAPTCHA_PUBLIC_KEY = "";
+const GOOGLE_RECAPTCHA_PUBLIC_KEY = "6LdEdzsmAAAAABujRzZH_0-LYBIWyMaMI22_sfYa";
 
 function App() {
   const siteVerify = async (token) => {
@@ -16,9 +16,9 @@ function App() {
 
   const onSubmit = async () => {
     // eslint-disable-next-line no-undef
-    grecaptcha.ready(function () {
+    grecaptcha.enterprise.ready(function () {
       // eslint-disable-next-line no-undef
-      grecaptcha
+      grecaptcha.enterprise
         .execute(GOOGLE_RECAPTCHA_PUBLIC_KEY, {
           action: "Purchase",
         })
